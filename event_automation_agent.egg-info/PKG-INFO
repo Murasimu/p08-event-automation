@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: event-automation-agent
+Version: 1.0.0
+Summary: Event-triggered automation agent: webhook/queue ingestion, idempotent execution, retries with backoff, dead-letter handling
+Requires-Python: >=3.10
+Provides-Extra: demo
+Requires-Dist: fastapi>=0.110; extra == "demo"
+Requires-Dist: uvicorn>=0.29; extra == "demo"
+Requires-Dist: httpx>=0.27; extra == "demo"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
